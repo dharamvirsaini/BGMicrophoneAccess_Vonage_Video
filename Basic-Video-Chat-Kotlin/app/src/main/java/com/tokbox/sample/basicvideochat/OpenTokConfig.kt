@@ -19,13 +19,13 @@ object OpenTokConfig {
     */
 
     // Replace with a API key
-    const val API_KEY = "46269242"
+    const val API_KEY = ""
 
     // Replace with a generated Session ID
-    const val SESSION_ID = "1_MX40NjI2OTI0Mn5-MTYyNjY5NzkwNTkxMn5PVW9Jd2N0OFkrZ0RGR2kyQ0hOdTRzZmZ-fg"
+    const val SESSION_ID = ""
 
     // Replace with a generated token (from the dashboard or using an OpenTok server SDK)
-    const val TOKEN = "T1==cGFydG5lcl9pZD00NjI2OTI0MiZzaWc9NmQ3ZmZlMGE5NWJjMTdlZjFmOGQ2M2NkZTJjNmRlMjhlOTZjZmY1MjpzZXNzaW9uX2lkPTFfTVg0ME5qSTJPVEkwTW41LU1UWXlOalk1Tnprd05Ua3hNbjVQVlc5SmQyTjBPRmtyWjBSR1Iya3lRMGhPZFRSelptWi1mZyZjcmVhdGVfdGltZT0xNjQ5MDY4NjcxJm5vbmNlPTAuMzQ4NzA1MjUzMzI1MTMyMjUmcm9sZT1wdWJsaXNoZXImZXhwaXJlX3RpbWU9MTY1MTY2MDY3MCZpbml0aWFsX2xheW91dF9jbGFzc19saXN0PQ=="
+    const val TOKEN = ""
 
 
     // *** The code below is to validate this configuration file. You do not need to modify it  ***
