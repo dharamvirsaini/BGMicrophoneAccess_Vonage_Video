@@ -1,5 +1,3 @@
-# BGMicrophoneAccess_Vonage_Video
-
 # Configure the app
 Open the OpenTokConfig file and configure the API_KEY, SESSION_ID, and TOKEN variables. You can obtain these values from your TokBox account.
 
@@ -16,13 +14,13 @@ Repository	Repository
 Note: You can also build your server from scratch using one of the server SDKs.
 
 After deploying the server open the ServerConfig file in this project and configure the CHAT_SERVER_URL with your domain to fetch credentials from the server:
-```
+```java
 public static final String CHAT_SERVER_URL = "https://YOURAPPNAME.herokuapp.com";
 ```
 Note that this application will ignore credentials in the OpenTokConfig file when CHAT_SERVER_URL contains a valid URL.
 
 This is the code responsible for retrieving the credentials from web server:
-```
+```java
 private void getSession() {
     Log.i(TAG, "getSession");
 
